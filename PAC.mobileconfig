@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Global HTTP Proxy</string>
+
+			<key>PayloadDisplayName</key>
+			<string>Global HTTP Proxy</string>
+
+			<key>PayloadIdentifier</key>
+			<!-- 7910e6ae-cbe2-11ea-87d0-0242ac130003 -->
+			<string>com.apple.proxy.http.global.7910e6ae-cbe2-11ea-87d0-0242ac130003</string>
+
+			<key>PayloadType</key>
+			<string>com.apple.proxy.http.global</string>
+
+			<!-- 7910e6ae-cbe2-11ea-87d0-0242ac130003 -->
+			<key>PayloadUUID</key>
+			<string>7910e6ae-cbe2-11ea-87d0-0242ac130003</string>
+
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+
+			<key>ProxyCaptiveLoginAllowed</key>
+			<true/>
+
+			<key>ProxyPACFallbackAllowed</key>
+			<false/>
+
+			<key>ProxyPACURL</key>
+			<!-- https://raw.githubusercontent.com/vulnicura/easylist-pac-privoxy/master/proxy.pac -->
+			<string>https://raw.githubusercontent.com/vulnicura/easylist-pac-privoxy/master/proxy.pac</string>
+
+			<key>ProxyType</key>
+			<string>Auto</string>
+		</dict>
+	</array>
+
+	<key>PayloadDisplayName</key>
+	<!-- biophilia -->
+	<string>biophilia</string>
+	
+	<key>PayloadIdentifier</key>
+	<!-- CREATE AN IDENTIFIER FOR YOUR PROFILE AND REPLACE GENERATED_UUID_02 -->
+	<string>biophiliaBlock.835d085e-cbe2-11ea-87d0-0242ac130003</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadUUID</key>
+	<!-- REPLACE GENERATED_UUID_03 -->
+	<string>8673476a-cbe2-11ea-87d0-0242ac130003</string>
+
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
